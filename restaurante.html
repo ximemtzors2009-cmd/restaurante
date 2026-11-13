@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurante Delicias</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+nav{
+    background-color: #8B4513;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #FFD700;
+}
+section{min-height: 100vh;
+padding: 40px;
+text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+}
+.imagen{
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #999;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    overflow: hidden;
+    background: #fff;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#inicio{
+    background-color: #f4f4f4;
+}
+#desayunos{
+    background-color: #d9f7ff;
+}
+#bebidas{
+    background-color: #d9f7ff;
+}
+#postres{
+    background-color: #ffe4e1;
+}
+#pastas{
+    background-color: #f0e68c;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#desayunos">Desayunos</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#pastas">Pastas</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>inicio</h2>
+        <p>Bienvenido a nuestro Restaurante</p>
+        <div class="imagen">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800"
+            alt="inicio">
+        </div>
+    </section>
+
+     <section id="desayunos">
+        <h2>Desayunos</h2>
+        <p>Los mejores desayunos para comenzar el día</p>
+        <div class="imagen">
+            <img src="https://content.elmueble.com/medio/2023/05/23/desayunos-saludables_d679edca_230523094402_900x900.jpg"
+            alt="Desayunos">
+        </div>
+    </section>
+
+      <section id="bebidas">
+        <h2>Bebidas</h2>
+        <p>Refrescantes bebidas para todos los gustos</p>
+        <div class="imagen">
+            <img src="https://mejorconsalud.as.com/wp-content/uploads/2026/05/bebidas-frias-cafe-768x432.png?auto=format%2Ccompress&quality=75&width=3840&height=2160&fit=cover&gravity=center&sharp=true&progressive=true¨
+            alt="Bebidas¨>
+        </div>
+        <!--ximena martinez-->
+    </section>
+
+      <section id="postres">
+        <h2>Postres</h2>
+        <p>Deliciosos postres preparados en el momento</p>
+        <div class="imagen">
+            <img src="https://i.blogs.es/a88f0b/postres_faciles/840_560.jpg"
+            alt="Postres">
+        </div>
+    </section>
+
+      <section id="pastas">
+        <h2>Pastas</h2>
+        <p>Variedad de pastas con recetas tradicionales</p>
+        <div class="imagen">
+            <img src="https://imag.bonviveur.com/pasta.jpg"
+            alt="Pastas">
+        </div>
+    </section>
+</body>
+</html>
